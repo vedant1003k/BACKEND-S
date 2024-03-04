@@ -7,7 +7,7 @@ const asyncHandler = (requestHandler) => {
 /*
 This code defines a higher-order function called asyncHandler. A higher-order function is a 
 function that takes another function as an argument or returns a function. In this case, asyncHandler
- takes a requestHandler function as an argument.
+takes a requestHandler function as an argument.
 
 The requestHandler function is expected to be an asynchronous function that takes three arguments: 
 req (the request object), res (the response object), and next (the next middleware function in the stack).
