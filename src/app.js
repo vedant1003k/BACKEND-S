@@ -24,7 +24,7 @@ app.use(express.static("public"));
 app.use(cookieParser());
 
 //ROUTES import
-import userRouter from "./routes/user.routes.js";
+import userRouter from './routes/user.routes.js';
 
 //https://localhost:8000/api/v1/users/register
 

@@ -1,9 +1,10 @@
 // require('dotenv').config({path :'./env'})
 import dotenv from "dotenv";
-import express from "express";
+// import express from "express";
+import { app } from "./app.js";
 import connectDB from "./db/index.js";
 
-const app = express();
+// const app = express();
 
 dotenv.config({
   path: "./env",
@@ -41,7 +42,7 @@ iffi (Immediately-Invoked Function Expression) function while establishing a Mon
   
       app.listen(process.env.PORT, () => {
         console.log(`App is listening on ${process.env.PORT}`);
-      });
+      });`
     } catch (e) {
       console.error("Error", e);
       throw err;
